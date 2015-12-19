@@ -20,6 +20,8 @@ Plugin 'nathanaelkane/vim-indent-guides'
 
 Plugin 'tmux-plugins/vim-tmux'
 
+Plugin 'terryma/vim-multiple-cursors'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -43,6 +45,7 @@ syntax on
 
 set number
 set cuc cul
+set hlsearch
 
 set guioptions-=L " 隐藏左侧滚动条 
 set guioptions-=r " 隐藏右侧滚动条 
