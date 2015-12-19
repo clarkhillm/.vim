@@ -1,11 +1,11 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
+"set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" let Vundle manage Vundle, required
+"let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'sickill/vim-monokai.git'
@@ -22,13 +22,13 @@ Plugin 'tmux-plugins/vim-tmux'
 
 Plugin 'terryma/vim-multiple-cursors'
 
-" All of your Plugins must be added before the following line
+"All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
+"To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
-" Brief help
+"Brief help
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
@@ -46,6 +46,8 @@ syntax on
 set number
 set cuc cul
 set hlsearch
+
+map <leader> w <C-w>
 
 set guioptions-=L " 隐藏左侧滚动条 
 set guioptions-=r " 隐藏右侧滚动条 
