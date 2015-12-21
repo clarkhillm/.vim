@@ -18,8 +18,6 @@ Plugin 'Valloric/vim-operator-highlight'
 
 Plugin 'nathanaelkane/vim-indent-guides'
 
-Plugin 'tmux-plugins/vim-tmux'
-
 Plugin 'terryma/vim-multiple-cursors'
 
 "All of your Plugins must be added before the following line
