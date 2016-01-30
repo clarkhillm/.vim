@@ -20,6 +20,12 @@ Plugin 'nathanaelkane/vim-indent-guides'
 
 Plugin 'terryma/vim-multiple-cursors'
 
+Plugin 'easymotion/vim-easymotion'
+
+Plugin 'mileszs/ack.vim'
+
+Plugin 'majutsushi/tagbar'
+
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -45,7 +51,11 @@ set number
 set cuc cul
 set hlsearch
 
-map <leader> w <C-w>
+:set tabstop=4        "设定tab宽度为4个字符
+:set shiftwidth=4     "设定自动缩进为4个字符
+:set expandtab  
+
+nmap <leader> w <Esc><C-w>
 
 set guioptions-=L " 隐藏左侧滚动条 
 set guioptions-=r " 隐藏右侧滚动条 
@@ -66,4 +76,6 @@ nmap <leader>6 <Plug>AirlineSelectTab6
 nmap <leader>7 <Plug>AirlineSelectTab7
 nmap <leader>8 <Plug>AirlineSelectTab8
 nmap <leader>9 <Plug>AirlineSelectTab9
+
+let g:ackhighlight = 1
 
