@@ -28,6 +28,8 @@ Plugin 'mileszs/ack.vim'
 
 Plugin 'majutsushi/tagbar'
 
+Plugin 'godlygeek/tabular'
+
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -84,4 +86,4 @@ nmap <leader>8 <Plug>AirlineSelectTab8
 nmap <leader>9 <Plug>AirlineSelectTab9
 
 let g:ackhighlight = 1
-
+set laststatus=2
