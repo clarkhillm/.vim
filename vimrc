@@ -10,6 +10,8 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'sickill/vim-monokai.git'
 
+Plugin 'joshdick/onedark.vim'
+
 Plugin 'scrooloose/nerdtree'
 
 Plugin 'bling/vim-airline'
@@ -43,19 +45,23 @@ filetype plugin indent on    " required
 "
 let mapleader=","
 
-colorscheme monokai
+colorscheme onedark
 
 syntax on
+
+au FileType javascript setl sw=2 sts=2 et
 
 set number
 set cuc cul
 set hlsearch
 
-:set tabstop=4        "设定tab宽度为4个字符
-:set shiftwidth=4     "设定自动缩进为4个字符
-:set expandtab  
+set tabstop=4        "设定tab宽度为4个字符
+set shiftwidth=4     "设定自动缩进为4个字符
+set expandtab  
 
-nmap <leader> w <Esc><C-w>
+nmap <leader>w <Esc><C-w>
+
+nmap <leader><leader>t :NERDTreeToggle<CR>
 
 set guioptions-=L " 隐藏左侧滚动条 
 set guioptions-=r " 隐藏右侧滚动条 
