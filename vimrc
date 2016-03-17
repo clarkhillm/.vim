@@ -51,6 +51,9 @@ colorscheme onedark
 
 syntax on
 
+set foldmethod=indent
+set foldlevelstart=99
+
 au FileType javascript setl sw=2 sts=2 et
 
 set number
@@ -64,6 +67,7 @@ set expandtab
 nmap <leader>w <Esc><C-w>
 
 nmap <leader><leader>t :NERDTreeToggle<CR>
+nmap <leader><leader>i :IndentGuidesToggle<CR>
 
 set guioptions-=L " 隐藏左侧滚动条 
 set guioptions-=r " 隐藏右侧滚动条 
