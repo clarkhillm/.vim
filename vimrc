@@ -30,6 +30,10 @@ Plugin 'majutsushi/tagbar'
 
 Plugin 'godlygeek/tabular'
 
+Plugin 'ctrlpvim/ctrlp.vim'
+
+Plugin 'Yggdroot/indentLine'
+
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -47,8 +51,7 @@ filetype plugin indent on    " required
 "
 let mapleader=","
 
-colorscheme onedark
-
+colorscheme monokai
 syntax on
 
 set foldmethod=indent
@@ -91,3 +94,11 @@ nmap <leader>9 <Plug>AirlineSelectTab9
 
 let g:ackhighlight = 1
 set laststatus=2
+
+"CrtlP
+let g:ctrlp_working_path_mode = './'
+"indentLine
+let g:indentLine_leadingSpaceChar = '.'
+let g:indentLine_leadingSpaceEnabled = 1
+let g:indentLine_color_term = 239
+
