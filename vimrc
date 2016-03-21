@@ -67,6 +67,8 @@ set tabstop=4        "设定tab宽度为4个字符
 set shiftwidth=4     "设定自动缩进为4个字符
 set expandtab  
 
+set colorcolumn=90
+
 nmap <leader>w <Esc><C-w>
 
 nmap <leader><leader>t :NERDTreeToggle<CR>
@@ -98,7 +100,8 @@ set laststatus=2
 "CrtlP
 let g:ctrlp_working_path_mode = './'
 "indentLine
-let g:indentLine_leadingSpaceChar = '.'
+let g:indentLine_leadingSpaceChar = '·'
+let g:indentLine_char = '┆'
 let g:indentLine_leadingSpaceEnabled = 1
 let g:indentLine_color_term = 239
 
