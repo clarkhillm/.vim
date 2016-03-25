@@ -18,21 +18,15 @@ Plugin 'bling/vim-airline'
 
 Plugin 'Valloric/vim-operator-highlight'
 
-Plugin 'nathanaelkane/vim-indent-guides'
-
 Plugin 'terryma/vim-multiple-cursors'
 
 Plugin 'easymotion/vim-easymotion'
 
 Plugin 'mileszs/ack.vim'
 
-Plugin 'majutsushi/tagbar'
-
 Plugin 'godlygeek/tabular'
 
 Plugin 'ctrlpvim/ctrlp.vim'
-
-Plugin 'Yggdroot/indentLine'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -52,6 +46,7 @@ filetype plugin indent on    " required
 let mapleader=","
 
 colorscheme monokai
+set background=dark
 syntax on
 
 set foldmethod=indent
@@ -68,15 +63,16 @@ set shiftwidth=4     "设定自动缩进为4个字符
 set expandtab  
 
 set colorcolumn=90
+set scroll=3
 
 nmap <leader>w <Esc><C-w>
 
 nmap <leader><leader>t :NERDTreeToggle<CR>
 nmap <leader><leader>i :IndentGuidesToggle<CR>
 
-set guioptions-=L " 隐藏左侧滚动条 
-set guioptions-=r " 隐藏右侧滚动条 
-set guioptions-=b " 隐藏底部滚动条 
+set guioptions-=L "隐藏左侧滚动条 
+set guioptions-=r "隐藏右侧滚动条 
+set guioptions-=b "隐藏底部滚动条 
 
 set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h11
 
@@ -99,9 +95,3 @@ set laststatus=2
 
 "CrtlP
 let g:ctrlp_working_path_mode = './'
-"indentLine
-let g:indentLine_leadingSpaceChar = '·'
-let g:indentLine_char = '┆'
-let g:indentLine_leadingSpaceEnabled = 1
-let g:indentLine_color_term = 239
-
