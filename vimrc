@@ -16,7 +16,7 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'bling/vim-airline'
 
-Plugin 'Valloric/vim-operator-highlight'
+Plugin 'clarkhillm/vim-operator-highlight'
 
 Plugin 'terryma/vim-multiple-cursors'
 
@@ -66,9 +66,8 @@ set colorcolumn=90
 set scroll=3
 
 nmap <leader>w <Esc><C-w>
-
 nmap <leader><leader>t :NERDTreeToggle<CR>
-nmap <leader><leader>i :IndentGuidesToggle<CR>
+nmap <leader><leader>h :nohl<CR>
 
 set guioptions-=L "隐藏左侧滚动条 
 set guioptions-=r "隐藏右侧滚动条 
@@ -90,8 +89,10 @@ nmap <leader>7 <Plug>AirlineSelectTab7
 nmap <leader>8 <Plug>AirlineSelectTab8
 nmap <leader>9 <Plug>AirlineSelectTab9
 
+"Ack
 let g:ackhighlight = 1
 set laststatus=2
 
 "CrtlP
 let g:ctrlp_working_path_mode = './'
+
