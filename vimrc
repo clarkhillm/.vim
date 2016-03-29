@@ -18,6 +18,8 @@ Plugin 'bling/vim-airline'
 
 Plugin 'clarkhillm/vim-operator-highlight'
 
+Plugin 'clarkhillm/python-syntax'
+
 Plugin 'terryma/vim-multiple-cursors'
 
 Plugin 'easymotion/vim-easymotion'
@@ -95,4 +97,6 @@ set laststatus=2
 
 "CrtlP
 let g:ctrlp_working_path_mode = './'
+
+let python_highlight_all = 1
 
