@@ -48,8 +48,9 @@ filetype plugin indent on    " required
 let mapleader=","
 
 colorscheme monokai
-set background=dark
+
 syntax on
+set background=dark
 
 set foldmethod=indent
 set foldlevelstart=99
@@ -70,6 +71,8 @@ set scroll=3
 nmap <leader>w <Esc><C-w>
 nmap <leader><leader>t :NERDTreeToggle<CR>
 nmap <leader><leader>h :nohl<CR>
+nmap <leader><leader>p <Esc><C-p>
+nmap <leader><leader>n <Esc><C-n>
 
 set guioptions-=L "隐藏左侧滚动条 
 set guioptions-=r "隐藏右侧滚动条 
