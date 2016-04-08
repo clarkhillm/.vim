@@ -63,7 +63,6 @@ set colorcolumn=90
 set scroll=3
 
 nmap <leader>w <Esc><C-w>
-nmap <leader><leader>t :NERDTreeToggle<CR>
 nmap <leader><leader>h :nohl<CR>
 nmap <leader><leader>p <Esc><C-p>
 nmap <leader><leader>n <Esc><C-n>
