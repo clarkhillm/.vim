@@ -10,10 +10,6 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'sickill/vim-monokai.git'
 
-Plugin 'joshdick/onedark.vim'
-
-Plugin 'scrooloose/nerdtree'
-
 Plugin 'bling/vim-airline'
 
 Plugin 'clarkhillm/vim-operator-highlight'
@@ -25,8 +21,6 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'easymotion/vim-easymotion'
 
 Plugin 'mileszs/ack.vim'
-
-Plugin 'godlygeek/tabular'
 
 Plugin 'ctrlpvim/ctrlp.vim'
 
