@@ -7,25 +7,15 @@ call vundle#begin()
 
 "let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
 Plugin 'sickill/vim-monokai.git'
-
 Plugin 'bling/vim-airline'
-
 Plugin 'clarkhillm/vim-operator-highlight'
-
 Plugin 'clarkhillm/python-syntax'
-
 Plugin 'terryma/vim-multiple-cursors'
-
 Plugin 'easymotion/vim-easymotion'
-
 Plugin 'mileszs/ack.vim'
-
 Plugin 'ctrlpvim/ctrlp.vim'
-
 Plugin 'hynek/vim-python-pep8-indent'
-
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -59,9 +49,9 @@ set hlsearch
 
 set tabstop=4        "设定tab宽度为4个字符
 set shiftwidth=4     "设定自动缩进为4个字符
-set expandtab  
+set expandtab
 
-set colorcolumn=90
+set colorcolumn=87
 set scroll=3
 
 nmap <leader>w <Esc><C-w>
@@ -69,9 +59,9 @@ nmap <leader><leader>h :nohl<CR>
 nmap <leader><leader>p <Esc><C-p>
 nmap <leader><leader>n <Esc><C-n>
 
-set guioptions-=L "隐藏左侧滚动条 
-set guioptions-=r "隐藏右侧滚动条 
-set guioptions-=b "隐藏底部滚动条 
+set guioptions-=L "隐藏左侧滚动条
+set guioptions-=r "隐藏右侧滚动条
+set guioptions-=b "隐藏底部滚动条
 
 set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h11
 
