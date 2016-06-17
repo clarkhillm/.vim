@@ -15,6 +15,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'mileszs/ack.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -86,4 +87,7 @@ set laststatus=2
 let g:ctrlp_working_path_mode = './'
 
 let python_highlight_all = 1
+
+"Nerd tree
+map <leader>cc :NERDTreeToggle<CR>
 
