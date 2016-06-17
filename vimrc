@@ -16,6 +16,7 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'mileszs/ack.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'Chiel92/vim-autoformat'
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -89,5 +90,7 @@ let g:ctrlp_working_path_mode = './'
 let python_highlight_all = 1
 
 "Nerd tree
-map <leader>cc :NERDTreeToggle<CR>
+map <leader><leader>t :NERDTreeToggle<CR>
 
+"format
+noremap <leader><leader>f :Autoformat<CR>
