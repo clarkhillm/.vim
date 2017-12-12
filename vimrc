@@ -19,6 +19,7 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'mileszs/ack.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ericcurtin/CurtineIncSw.vim'
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -96,3 +97,6 @@ map <leader><leader>t :NERDTreeToggle<CR>
 
 "format
 noremap <leader><leader>f :Autoformat<CR>
+
+"CurtineIncSw
+map <leader><leader>h :call CurtineIncSw()<CR>
