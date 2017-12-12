@@ -20,6 +20,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ericcurtin/CurtineIncSw.vim'
+Plugin 'Matt-Deacalion/vim-systemd-syntax'
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
