@@ -101,3 +101,5 @@ noremap <leader><leader>f :Autoformat<CR>
 
 "CurtineIncSw
 map <leader><leader>h :call CurtineIncSw()<CR>
+
+autocmd BufNewFile,BufRead *.cpp set formatprg=astyle\ -T4pb
