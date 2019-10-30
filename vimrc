@@ -42,7 +42,8 @@ let mapleader=","
 colorscheme monokai
 
 syntax on
-set background=dark
+
+"set background=dark
 
 set foldmethod=indent
 set foldlevelstart=99
@@ -69,11 +70,13 @@ set guioptions-=L "隐藏左侧滚动条
 set guioptions-=r "隐藏右侧滚动条
 set guioptions-=b "隐藏底部滚动条
 
-set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h11
+set guifont=DejaVu\ Sans\ Mono\ 12
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
+
+let NERDTreeIgnore = ['\.pyc$', '\.swp', '\.swo', '\.vscode', '__pycache__']
 
 nmap <leader>1 <Plug>AirlineSelectTab1
 nmap <leader>2 <Plug>AirlineSelectTab2
@@ -104,3 +107,5 @@ noremap <leader><leader>f :Autoformat<CR>
 map <leader><leader>h :call CurtineIncSw()<CR>
 
 autocmd BufNewFile,BufRead *.cpp set formatprg=astyle\ -T4pb
+
+
