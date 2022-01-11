@@ -54,8 +54,8 @@ set number
 set cuc cul
 set hlsearch
 
-highlight CursorLine   cterm=NONE ctermbg=black ctermfg=bold guibg=NONE guifg=NONE
-highlight CursorColumn cterm=NONE ctermbg=black ctermfg=bold guibg=NONE guifg=NONE
+"highlight CursorLine   cterm=NONE ctermbg=black ctermfg=bold guibg=NONE guifg=NONE
+"highlight CursorColumn cterm=NONE ctermbg=black ctermfg=bold guibg=NONE guifg=NONE
 
 set tabstop=4        "设定tab宽度为4个字符
 set shiftwidth=4     "设定自动缩进为4个字符
